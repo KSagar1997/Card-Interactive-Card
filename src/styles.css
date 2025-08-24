@@ -1,0 +1,48 @@
+/* Add this to your styles.css file */
+
+/* 3D Transform utilities for flip cards */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Custom rotation utilities for layered cards */
+.rotate-1 {
+  transform: rotate(1deg);
+}
+
+.rotate-0\.5 {
+  transform: rotate(0.5deg);
+}
+
+/* Ensure Tailwind's base styles are included */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional hover effects */
+.hover-glow {
+  transition: box-shadow 0.3s ease;
+}
+
+.hover-glow:hover {
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.5);
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .dark\:bg-gray-900 {
+    background-color: rgb(17 24 39);
+  }
+}
