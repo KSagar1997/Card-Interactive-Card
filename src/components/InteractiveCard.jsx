@@ -383,12 +383,6 @@ export default CardShowcase;
  * - Update the project data in the cards section^
  * - Modify colors and gradients for your brand^
  *
- * PERFORMANCE TIPS:
- * - useTransform is optimized for scroll animations
- * - Use transform properties like scale, rotate, translate over changing width/height
- * - Set once: true on animations that should only happens once and
- * - Use viewport margins to create animations fast or late
- *
  * CUSTOMIZATION IDEAS:
  * - Add your own sections between existing ones
  * - Change the color scheme by updating Tailwind classes

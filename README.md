@@ -5,7 +5,7 @@ A comprehensive, reusable React component showcasing advanced card animations wi
 ## ✨ Features
 
 - **3D Flip Animation** - Smooth card rotation revealing back content on hover
-- **Expand Animation** - Cards grow dynamically to show additional content  
+- **Expand Animation** - Cards grow dynamically to show additional content
 - **Layered Effects** - Multiple layers separate with staggered animations
 - **Glow Effects** - Customizable hover glow in 6 different colors
 - **Icon Integration** - Seamless Lucide React icon support
@@ -35,8 +35,8 @@ Add to your `src/styles.css`:
 ### Basic Usage
 
 ```jsx
-import InteractiveCard from './components/InteractiveCard';
-import { Code } from 'lucide-react';
+import InteractiveCard from "./components/InteractiveCard";
+import { Code } from "lucide-react";
 
 function App() {
   return (
@@ -51,9 +51,10 @@ function App() {
 ## 📦 Dependencies
 
 - `lucide-react`: ^0.263.1 - Modern icon library
-- `react`: ^18.0.0 - React framework  
-- `tailwindcss`: ^3.0.0 - Utility-f
-
+- `react`: ^19.0.0 - React framework
+- `tailwindcss`: 4.1.12 - Utility-f
+- `postcss`: 8.5.6
+- `autoprefixer`: 10.4.21
 
 ## 📄 License
 
